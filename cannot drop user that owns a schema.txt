@@ -1,0 +1,8 @@
+
+SELECT s.name
+FROM sys.schemas s
+WHERE s.principal_id = USER_ID('DC7_FL_Lee_User')
+
+
+ALTER AUTHORIZATION ON SCHEMA::LEGACYSPED TO dbo
+

@@ -1,0 +1,1 @@
+-- EXEC SP_Change_Users_Login 'Auto_Fix','TSSMADO',Null,'Dan()123'
